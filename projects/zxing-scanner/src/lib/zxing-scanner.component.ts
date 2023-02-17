@@ -9,7 +9,7 @@ import {
   Output,
   ViewChild
 } from '@angular/core';
-import { BrowserCodeReader } from '@zxing/browser';
+import { BrowserCodeReader } from '@digitalspace/browser';
 import {
   BarcodeFormat,
   DecodeHintType,
