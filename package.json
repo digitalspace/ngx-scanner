@@ -1,21 +1,11 @@
 {
-  "name": "@zxing/ngx-scanner",
+  "name": "@digitalspace/ngx-scanner",
   "version": "1.0.0",
-  "homepage": "https://github.com/zxing-js/ngx-scanner#readme",
+  "homepage": "https://github.com/digitalspace/ngx-scanner#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zxing-js/ngx-scanner.git"
+    "url": "https://github.com/digitalspace/ngx-scanner.git"
   },
-  "authors": [
-    {
-      "name": "David Werth",
-      "email": "werth.david@gmail.com"
-    },
-    {
-      "name": "Luiz Machado",
-      "email": "machado@odahcam.com"
-    }
-  ],
   "keywords": [
     "angular",
     "zxing",
@@ -26,7 +16,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zxing-js/ngx-scanner/issues"
+    "url": "https://github.com/digitalspace/ngx-scanner/issues"
   },
   "scripts": {
     "ng": "ng",
@@ -42,7 +32,7 @@
     "docs:serve": "npm run docs:build -- -s",
     "docs:watch": "npm run docs:build -- -s -w",
     "publish:dist": "cd ./dist/zxing-scanner && npm publish --access=public",
-    "postinstall": "node -e \"console.log('\\u001b[35m\\u001b[1mLove ZXing for JS? You can now donate to our open collective:\\u001b[22m\\u001b[39m\\n > \\u001b[34mhttps://opencollective.com/zxing-js/donate\\u001b[0m')\"",
+    "postinstall": "node -e \"console.log('\\u001b[35m\\u001b[1mLove ZXing for JS? You can now donate to our open collective:\\u001b[22m\\u001b[39m\\n > \\u001b[34mhttps://opencollective.com/digitalspace/donate\\u001b[0m')\"",
     "deploy:demo:ngh": "npm run build:gh-pages && npx ngh --dir=dist/gh-pages"
   },
   "dependencies": {
@@ -56,7 +46,7 @@
     "@angular/platform-browser-dynamic": "^15.0.0",
     "@angular/router": "^15.0.0",
     "@angular/service-worker": "^15.0.0",
-    "@zxing/browser": "^0.1.1",
+    "@digitalspace/browser": "^0.1.1",
     "@zxing/library": "^0.19.1",
     "rxjs": "^7.5.7",
     "tslib": "^2.3.1"
@@ -92,6 +82,6 @@
   },
   "collective": {
     "type": "opencollective",
-    "url": "https://opencollective.com/zxing-js"
+    "url": "https://opencollective.com/digitalspace"
   }
 }
