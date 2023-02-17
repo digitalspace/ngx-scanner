@@ -451,7 +451,14 @@ export class ZXingScannerComponent implements OnInit, OnDestroy {
    *
    */
   getAnyVideoDevice(): Promise<MediaStream> {
-    return navigator.mediaDevices.getUserMedia({ video: true });
+    return navigator.mediaDevices.getUserMedia({
+      audio: false,
+      video: {
+        width: { min: 640, ideal: 1920 },
+        height: { min: 400, ideal: 1080 },
+        aspectRatio: { ideal: 1.7777777778 }
+      }
+    });
   }
 
   /**
